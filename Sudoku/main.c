@@ -1,10 +1,5 @@
 /**
-TRABALHO DE PROGAMAÇAO PROCEDIMENTAL:SUDOKU
-GRUPO PAP
-INTEGRANTES:
-       PAULO CÉSAR GARCIA JÚNIOR ,         MATRÍCULA:11811BCC003
-       ANDRÉ LUIZ MORAIS PERES DE QUINTA   MATRÍCULA:11821BCC003
-       PEDRO HENRIQUE DA SILVA OLIVEIRA    MATRÍCULA:11811BCC040
+TRABALHO DE PROGAMAÃ‡AO PROCEDIMENTAL: SUDOKU
 */
 
 #include <stdio.h>
@@ -164,7 +159,7 @@ int main(){
                     S[PA - 1].Sudoku[menorPosI][menorPosF].mutavel = 0;
                 }else if(menorPos > 1){
                     PA++;
-                    S = realloc(S,PA * sizeof(struct sudoku));//adiciona uma posição ao vetor de sudokus salvos
+                    S = realloc(S,PA * sizeof(struct sudoku));//adiciona uma posiÃ§Ã£o ao vetor de sudokus salvos
                     S[PA - 1].Lmenor = menorPosI;
                     S[PA - 1].Cmenor = menorPosF;
                     S[PA - 1].qntPos = menorPos;
